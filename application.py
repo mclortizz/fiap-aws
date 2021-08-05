@@ -4,6 +4,8 @@ application = Flask(__name__)
 @application.route("/")
 def hello():
     return "<h1>Hola FIAP!</h1>\nMBA! o/ V4"
+    nome = input ('Digite seu nome: ')
+    print(nome)
 
 if __name__ == '__main__':
     # application.run()
